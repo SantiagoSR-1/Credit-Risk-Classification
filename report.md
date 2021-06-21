@@ -5,7 +5,7 @@
 
 The purpose of this analysis is to determine which of the two developed logistic regression models are best suited for the purpose of identifying normal loans and default risk loans for the client company. 
 
-Alternatively, both models could be rejected in the case that neither is determined to be satisfactory on the basis of their scoring.
+Alternatively, both models may be rejected in the case that neither is determined to be satisfactory on the basis of their scoring.
 
 The financial information is based upon a complied CSV listing of 77,536 loans, containing information such as loan size, interest rate, and debt to income ratio.
 
@@ -13,7 +13,7 @@ The financial information is based upon a complied CSV listing of 77,536 loans, 
 
 The information we are attempting to predict is the ability of the model(s) to correctly identify what are considered to be normal / healthy loans and those that are at the risk of default.
 
-The variable we are attempting to predict is specifically “loan_status”, as it pertains to our client’s interest in primary interest.
+The variable we are attempting to predict is specifically “loan_status”, as it pertains to our client’s primary interest.
 
 After extracting the loan_status variable from the dataframe, we perform a train_test_split to setup our data for testing purposes.
 
