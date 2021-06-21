@@ -12,7 +12,7 @@ The y_pred value is then compared to the y_test data to serve as a comparison po
 
 Another logistic regression model is also created, but incorporates a random oversample model of the original testing data and resampled values for X and y.
 
-Finally, we end on a comparison of the classification report data and, interpretting the results, we give our analysis of what modelis the "better" of the two.
+Finally, we end on a comparison of the classification report data and, interpretting the results, we give our analysis of what model is the "better" of the two.
 
 
 ---
