@@ -64,8 +64,12 @@ Machine Learning Model 2 (Logistic Regression & Random Oversampler):
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+On the basis of the classification reports for the machine learning models, I believe the second model, which incorporates the random oversampler model, is the better of the two.
 
-If you do not recommend any of the models, please justify your reasoning.
+I base my judgement on the improved scoring in the Recall and Accuracy / Specificity statistics which can be interpreted as a lowering in the number of false positives (for Accuracy) and false negatives (for Recall).
+
+Although Precision did decrease by 1 %, the increase in 8 % for Recall and Accuracy more than makes up for the difference.
+
+The performance certainly is dependent on the problem we are attempting to solve as there is a greater emphasis to be placed upon the ability to accurately predict the default risk loans as they pose the greater business risk for the client than normal healthy loans.
+
+Going back to the Results section, the value of Model 2 can be identified in the Recall section where there is an increase by  8 % in the ability to correctly identify risky loans for the business.
