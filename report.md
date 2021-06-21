@@ -35,16 +35,16 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 ![Classification Report Original](Images/classification_report_original.PNG) 
 
   * Accuracy – spe – true negative / (true negative + false positive)
-    * Normal loans – 91 %
-    * Default risk loans – 99 %
+   * Normal loans – 91 %
+   * Default risk loans – 99 %
   
   * Precision – pre – true positive / (true positive + false positive)
-  * Normal loans – 100 %
-  * Default risk loans – 85 %
+   * Normal loans – 100 %
+   * Default risk loans – 85 %
   
   * Recall – rec – true positive / (true positive + false negative)
-  * Normal loans – 99 %
-  * Default risk loans – 91 %
+   * Normal loans – 99 %
+   * Default risk loans – 91 %
 
 
 * Machine Learning Model 2:
