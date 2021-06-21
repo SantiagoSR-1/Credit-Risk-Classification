@@ -32,11 +32,11 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1 (Logistic Regression):
 
-* ![Classification Report Original](Images/classification_report_original.PNG) 
+![Classification Report Original](Images/classification_report_original.PNG) 
 
   * Accuracy – spe – true negative / (true negative + false positive)
-  * Normal loans – 91 %
-  * Default risk loans – 99 %
+    * Normal loans – 91 %
+    * Default risk loans – 99 %
   
   * Precision – pre – true positive / (true positive + false positive)
   * Normal loans – 100 %
