@@ -29,7 +29,7 @@ Another logistic regression model is also created, but incorporates a random ove
 ## Results
 
 
-* Machine Learning Model 1 (Logistic Regression):
+Machine Learning Model 1 (Logistic Regression):
 
 ![Classification Report Original](Images/classification_report_original.PNG) 
 
@@ -46,7 +46,7 @@ Another logistic regression model is also created, but incorporates a random ove
     * Default risk loans – 91 %
 
 
-* Machine Learning Model 2 (Logistic Regression & Random Oversampler):
+Machine Learning Model 2 (Logistic Regression & Random Oversampler):
 
 ![Classification Report Resampler](Images/classification_report_resampled.PNG) 
 
