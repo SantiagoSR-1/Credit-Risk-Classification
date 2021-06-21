@@ -28,7 +28,6 @@ Another logistic regression model is also created, but incorporates a random ove
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1 (Logistic Regression):
 
@@ -47,8 +46,21 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     * Default risk loans – 91 %
 
 
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 2 (Logistic Regression & Random Oversampler):
+
+![Classification Report Resampler](Images/classification_report_resampled.PNG) 
+
+  * Accuracy – spe – true negative / (true negative + false positive)
+    * Normal loans – 99 %
+    * Default risk loans – 99 %
+  
+  * Precision – pre – true positive / (true positive + false positive)
+    * Normal loans – 100 %
+    * Default risk loans – 84 %
+  
+  * Recall – rec – true positive / (true positive + false negative)
+    * Normal loans – 99 %
+    * Default risk loans – 99 %
 
 ## Summary
 
