@@ -31,7 +31,13 @@ Another logistic regression model is also created, but incorporates a random ove
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
+
+* ![Classification Report Original](Images/classification_report_original.PNG) 
+ 
   * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * Accuracy – spe – true negative / (true negative + false positive)
+  * Normal loans – 91 %
+  * Default risk loans – 99 %
 
 
 
