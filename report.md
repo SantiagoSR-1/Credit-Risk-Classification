@@ -2,13 +2,29 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The purpose of this analysis is to determine which of the two developed logistic regression models are best suited for the purpose of identifying normal loans and default risk loans for the client company. 
+
+Alternatively, both models could be rejected in the case that neither is determined to be satisfactory on the basis of their scoring.
+
+The financial information is based upon a complied CSV listing of 77,536 loans, containing information such as loan size, interest rate, and debt to income ratio.
+
+INSERT image link
+
+The information we are attempting to predict is the ability of the model(s) to correctly identify what are considered to be normal / healthy loans and those that are at the risk of default.
+
+The variable we are attempting to predict is specifically “loan_status”, as it pertains to our client’s interest in primary interest.
+
+After extracting the loan_status variable from the dataframe, we perform a train_test_split to setup our data for testing purposes.
+
+We create a logistic regression model, with a random state of 1 to ensure consistency with retesting of the data.
+
+This LR model is then used to run a prediction using the X testing data to produce a y_pred value.
+
+The y_pred value is then compared to the y_test data to serve as a comparison point between the model’s predictive abilities and the actual data.
+
+Another logistic regression model is also created, but incorporates a random oversample model of the original testing data and resampled values for X and y.
+
 
 ## Results
 
