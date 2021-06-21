@@ -9,7 +9,7 @@ Alternatively, both models could be rejected in the case that neither is determi
 
 The financial information is based upon a complied CSV listing of 77,536 loans, containing information such as loan size, interest rate, and debt to income ratio.
 
-Images/raw_data.PNG
+![Raw data](Images/raw_data.PNG)
 
 The information we are attempting to predict is the ability of the model(s) to correctly identify what are considered to be normal / healthy loans and those that are at the risk of default.
 
